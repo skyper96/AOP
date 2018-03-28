@@ -8,7 +8,7 @@ public class Topic implements Subject {
     private String message;
     private boolean changed;
     private final Object MUTEX = new Object();
-    private static final Logger LOGGER = Logger.getLogger(Topic.class.getName());
+    //private static final Logger LOGGER = Logger.getLogger(Topic.class.getName());
 
     Topic(){
         this.observers=new ArrayList<>();

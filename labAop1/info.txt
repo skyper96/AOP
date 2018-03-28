@@ -1,0 +1,9 @@
+command to build aspect: ajc -outxml -outjar aspects.jar Trace.java
+
+template: java -javaagent:<path to aspectjweaver.jar> -cp <path to aspects.jar>:<path to target jar/folder> <name of main class to run>
+cmd to run aspect: java -javaagent:C:\aspectj1.8\lib\aspectjweaver.jar -cp D:\FACULTATE\GIT\AOP\labAop1\out\production\labAop1\aspects.jar:D:\FACULTATE\GIT\AOP\labAop1\out\production\labAop1\ Main.class
+
+site info: https://mathewjhall.wordpress.com/2011/03/31/tracing-java-method-execution-with-aspectj/
+
+
+java -javaagent:C:\aspectj1.8\lib\aspectjweaver.jar -cp D:\FACULTATE\GIT\AOP\labAop1\out\production\labAop1\aspects.jar:D:\FACULTATE\GIT\AOP\labAop1\out\production\labAop1 Main.class

@@ -8,7 +8,9 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>almighty</user-name>
+      <introspection-schemas>aopStart:public</introspection-schemas>
       <resolve-scope>postgres:almighty,public</resolve-scope>
+      <unqualified-resolve-schemas>postgres:almighty,public</unqualified-resolve-schemas>
     </data-source>
   </component>
 </project>
